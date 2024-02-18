@@ -15,6 +15,11 @@ export class RecipeListComponent {
       'Some ingredients',
       'https://cdn.pixabay.com/photo/2016/06/15/19/09/food-1459693_960_720.jpg'
     ),
+    new Recipe(
+      'Just Another recipe',
+      'No Ingredients yet',
+      'https://cdn.pixabay.com/photo/2016/06/15/19/09/food-1459693_960_720.jpg'
+    ),
   ];
 
   onRecipeSelected(recipe: Recipe) {
